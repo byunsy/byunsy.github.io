@@ -459,6 +459,7 @@ INTRO SECTION
   .intro__img {
     margin: 0 auto;
     margin-bottom: 2em;
+    max-width: 250px;
   }
 
   .section__title--intro {
@@ -492,6 +493,21 @@ INTRO SECTION
   .title__links li {
     padding-left: 1em;
     width: 5.5em;
+  }
+}
+
+/* Some edge cases for mobile views only */
+@media (max-width: 400px) {
+  .title__links {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    align-items: center;
+  }
+  .title__links li {
+    padding-left: 0;
+    padding-top: 1em;
+    margin: 0 auto;
   }
 }
 
@@ -544,6 +560,12 @@ ABOUT ME SECTION
   .buttons {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-me__img {
+    max-width: 250px;
   }
 }
 
@@ -668,9 +690,9 @@ PROJECTS SECTION
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 679px) {
   .portfolio {
-    max-width: 250px;
+    max-width: 350px;
     margin: 0 auto;
   }
 
@@ -683,6 +705,7 @@ PROJECTS SECTION
   }
 
   .portfolio__tag {
+    display: block;
     margin-bottom: 4em;
   }
 
