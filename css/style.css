@@ -525,6 +525,10 @@ ABOUT ME SECTION
   max-width: 350px;
 }
 
+.about-me__skills {
+  list-style: circle;
+}
+
 @media (min-width: 680px) {
   .about-me {
     display: grid;
