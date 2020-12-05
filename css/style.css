@@ -78,6 +78,10 @@ strong {
   outline-offset: 2px;
 }
 
+::selection {
+  background: #16e0be6c;
+}
+
 /* ============================================================================
 BUTTONS 
 ============================================================================ */
@@ -192,6 +196,7 @@ NAVIGATION SECTION
 .nav {
   position: fixed;
   background-color: var(--clr-dark);
+  /* background-color: #111; */
   color: var(--clr-light-blue);
   top: 0;
   bottom: 0;
@@ -605,6 +610,11 @@ PROJECTS SECTION
   color: var(--clr-accent);
 }
 
+.portfolio a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (min-width: 680px) {
   .portfolio {
     display: grid;
@@ -614,7 +624,8 @@ PROJECTS SECTION
       "img2 text2"
       "img3 text3"
       "img4 text4"
-      "img5 text5";
+      "img5 text5"
+      "img6 text6";
     grid-column-gap: 2em;
     grid-row-gap: 3em;
   }
@@ -680,6 +691,18 @@ PROJECTS SECTION
   }
   .portfolio__text5 {
     grid-area: text5;
+    margin-top: 0;
+  }
+
+  /* PORTFOLIO PROJECT 6*/
+  .portfolio__item6 {
+    grid-area: img6;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .portfolio__text6 {
+    grid-area: text6;
     margin-top: 0;
   }
 
