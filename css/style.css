@@ -625,7 +625,9 @@ PROJECTS SECTION
       "img3 text3"
       "img4 text4"
       "img5 text5"
-      "img6 text6";
+      "img6 text6"
+      "img7 text7"
+      "img8 text8";
     grid-column-gap: 2em;
     grid-row-gap: 3em;
   }
@@ -703,6 +705,30 @@ PROJECTS SECTION
   }
   .portfolio__text6 {
     grid-area: text6;
+    margin-top: 0;
+  }
+
+  /* PORTFOLIO PROJECT 7*/
+  .portfolio__item7 {
+    grid-area: img7;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .portfolio__text7 {
+    grid-area: text7;
+    margin-top: 0;
+  }
+
+  /* PORTFOLIO PROJECT 8*/
+  .portfolio__item8 {
+    grid-area: img8;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .portfolio__text8 {
+    grid-area: text8;
     margin-top: 0;
   }
 
