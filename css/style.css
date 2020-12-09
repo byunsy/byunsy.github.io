@@ -821,6 +821,170 @@ FOOTER SECTION
 }
 
 /* ============================================================================
+MORE ABOUT ME SECTION
+============================================================================ */
+.intro__more {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.more-about-me {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.more-about-me-life {
+  padding: 0 0em 2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.more-about-me-life p {
+  margin: 2em 0;
+}
+.more-about-me-life img {
+  box-shadow: var(--bs);
+}
+
+.more-about-me-education {
+  padding: 5em 0em 2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.more-about-me-education p {
+  margin: 0;
+}
+.more-about-me-education h2 {
+  margin: 0 0 1em;
+}
+.more-about-me-education h3 {
+  margin-top: 1em;
+}
+.more-about-me-education li {
+  list-style: circle;
+}
+.more-about-me-education img {
+  margin: 0 auto;
+}
+
+@media (max-width: 679px) {
+  .more-about-me-education {
+    max-width: 350px;
+    padding: 3em 0 2em;
+  }
+  .more-about-me-education h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 680px) {
+  .education-list {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas:
+      "img1 text1"
+      "img2 text2";
+    grid-column-gap: 2em;
+    grid-row-gap: 3em;
+  }
+
+  /* EDUCATION 1*/
+  .edu__item1 {
+    grid-area: img1;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .edu__text1 {
+    grid-area: text1;
+    margin-top: 0;
+  }
+
+  /* EDUCATION 2*/
+  .edu__item2 {
+    grid-area: img2;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .edu__text2 {
+    grid-area: text2;
+    margin-top: 0;
+  }
+}
+
+.more-about-me-experiences {
+  padding: 5em 0em 4em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.more-about-me-experiences h2 {
+  margin: 0 0 1em;
+}
+.more-about-me-experiences p {
+  margin: 2em 0;
+}
+.more-about-me-experiences img {
+  margin: 0 auto;
+}
+
+@media (max-width: 679px) {
+  .more-about-me-experiences {
+    max-width: 350px;
+  }
+  .more-about-me-experiences h2 {
+    text-align: center;
+  }
+}
+@media (min-width: 680px) {
+  .experiences-list {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas:
+      "img1 text1"
+      "img2 text2"
+      "img3 text3";
+    grid-column-gap: 2em;
+    grid-row-gap: 3em;
+  }
+
+  /* EXPERIENCE 1*/
+  .exp__item1 {
+    grid-area: img1;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .exp__text1 {
+    grid-area: text1;
+    margin-top: 0;
+  }
+
+  /* EXPERIENCE 2*/
+  .exp__item2 {
+    grid-area: img2;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .exp__text2 {
+    grid-area: text2;
+    margin-top: 0;
+  }
+
+  /* EXPERIENCE 3*/
+  .exp__item3 {
+    grid-area: img3;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .exp__text3 {
+    grid-area: text3;
+    margin-top: 0;
+  }
+}
+
+/* ============================================================================
 INDIVIDUAL PORTFOLIO ITEM SECTIONS
 ============================================================================ */
 .portfolio-item-individual {
