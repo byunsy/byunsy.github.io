@@ -913,7 +913,7 @@ MORE ABOUT ME SECTION
 }
 
 .more-about-me-experiences {
-  padding: 5em 0em 4em;
+  padding: 5em 0em 2em;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -921,10 +921,23 @@ MORE ABOUT ME SECTION
   margin: 0 0 1em;
 }
 .more-about-me-experiences p {
-  margin: 2em 0;
+  margin: 0 0 1em;
 }
 .more-about-me-experiences img {
   margin: 0 auto;
+}
+
+/* Use :before for dash list-style */
+.exp_list {
+  list-style: none;
+  padding: 10px;
+}
+.exp_list > li {
+  text-indent: -10px;
+}
+.exp_list > li:before {
+  content: "- ";
+  text-indent: -10px;
 }
 
 @media (max-width: 679px) {
