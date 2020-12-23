@@ -1,7 +1,7 @@
 # byunsy.github.io
 
 <p align="center">
-  <img src="https://github.com/byunsy/byunsy.github.io/tree/main/img/portfolio.gif" alt="image"/>
+  <img src="https://github.com/byunsy/byunsy.github.io/blob/main/img/portfolio.gif" alt="image"/>
 </p>
 
 ## Description
