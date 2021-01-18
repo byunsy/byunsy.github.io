@@ -627,7 +627,8 @@ PROJECTS SECTION
       "img6 text6"
       "img7 text7"
       "img8 text8"
-      "img9 text9";
+      "img9 text9"
+      "img10 text10";
     grid-column-gap: 2em;
     grid-row-gap: 3em;
   }
@@ -643,10 +644,6 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text1 {
-    grid-area: text1;
-    margin-top: 0;
-  } */
 
   /* PORTFOLIO PROJECT 2*/
   .portfolio__item2 {
@@ -655,10 +652,6 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text2 {
-    grid-area: text2;
-    margin-top: 0;
-  } */
 
   /* PORTFOLIO PROJECT 3*/
   .portfolio__item3 {
@@ -667,10 +660,6 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text3 {
-    grid-area: text3;
-    margin-top: 0;
-  } */
 
   /* PORTFOLIO PROJECT 4*/
   .portfolio__item4 {
@@ -679,10 +668,6 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text4 {
-    grid-area: text4;
-    margin-top: 0;
-  } */
 
   /* PORTFOLIO PROJECT 5*/
   .portfolio__item5 {
@@ -691,10 +676,6 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text5 {
-    grid-area: text5;
-    margin-top: 0;
-  } */
 
   /* PORTFOLIO PROJECT 6*/
   .portfolio__item6 {
@@ -703,10 +684,6 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text6 {
-    grid-area: text6;
-    margin-top: 0;
-  } */
 
   /* PORTFOLIO PROJECT 7*/
   .portfolio__item7 {
@@ -715,10 +692,6 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text7 {
-    grid-area: text7;
-    margin-top: 0;
-  } */
 
   /* PORTFOLIO PROJECT 8*/
   .portfolio__item8 {
@@ -727,10 +700,6 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text8 {
-    grid-area: text8;
-    margin-top: 0;
-  } */
 
   /* PORTFOLIO PROJECT 9*/
   .portfolio__item9 {
@@ -739,10 +708,14 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
-  /* .portfolio__text9 {
-      grid-area: text9;
-      margin-top: 0;
-    } */
+
+  /* PORTFOLIO PROJECT 10*/
+  .portfolio__item10 {
+    grid-area: img10;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
 
   .portfolio__img {
     transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
