@@ -621,8 +621,10 @@ PROJECTS SECTION
     grid-template-areas:
       "img1 text1"
       "img2 text2"
+      "img11 text11"
       "img3 text3"
       "img4 text4"
+      "img12 text12"
       "img5 text5"
       "img6 text6"
       "img7 text7"
@@ -644,6 +646,9 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
+  .portfolio__text1 {
+    grid-area: text1;
+  }
 
   /* PORTFOLIO PROJECT 2*/
   .portfolio__item2 {
@@ -651,6 +656,9 @@ PROJECTS SECTION
     background-color: var(--clr-light);
     max-width: 200px;
     overflow: hidden;
+  }
+  .portfolio__text2 {
+    grid-area: text2;
   }
 
   /* PORTFOLIO PROJECT 3*/
@@ -660,6 +668,9 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
+  .portfolio__text3 {
+    grid-area: text3;
+  }
 
   /* PORTFOLIO PROJECT 4*/
   .portfolio__item4 {
@@ -667,6 +678,9 @@ PROJECTS SECTION
     background-color: var(--clr-light);
     max-width: 200px;
     overflow: hidden;
+  }
+  .portfolio__text4 {
+    grid-area: text4;
   }
 
   /* PORTFOLIO PROJECT 5*/
@@ -676,6 +690,9 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
+  .portfolio__text5 {
+    grid-area: text5;
+  }
 
   /* PORTFOLIO PROJECT 6*/
   .portfolio__item6 {
@@ -683,6 +700,9 @@ PROJECTS SECTION
     background-color: var(--clr-light);
     max-width: 200px;
     overflow: hidden;
+  }
+  .portfolio__text6 {
+    grid-area: text6;
   }
 
   /* PORTFOLIO PROJECT 7*/
@@ -692,6 +712,9 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
+  .portfolio__text7 {
+    grid-area: text7;
+  }
 
   /* PORTFOLIO PROJECT 8*/
   .portfolio__item8 {
@@ -699,6 +722,9 @@ PROJECTS SECTION
     background-color: var(--clr-light);
     max-width: 200px;
     overflow: hidden;
+  }
+  .portfolio__text8 {
+    grid-area: text8;
   }
 
   /* PORTFOLIO PROJECT 9*/
@@ -708,6 +734,9 @@ PROJECTS SECTION
     max-width: 200px;
     overflow: hidden;
   }
+  .portfolio__text9 {
+    grid-area: text9;
+  }
 
   /* PORTFOLIO PROJECT 10*/
   .portfolio__item10 {
@@ -715,6 +744,31 @@ PROJECTS SECTION
     background-color: var(--clr-light);
     max-width: 200px;
     overflow: hidden;
+  }
+  .portfolio__text10 {
+    grid-area: text10;
+  }
+
+  /* PORTFOLIO PROJECT 11*/
+  .portfolio__item11 {
+    grid-area: img11;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .portfolio__text11 {
+    grid-area: text11;
+  }
+
+  /* PORTFOLIO PROJECT 12*/
+  .portfolio__item12 {
+    grid-area: img12;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .portfolio__text12 {
+    grid-area: text12;
   }
 
   .portfolio__img {
