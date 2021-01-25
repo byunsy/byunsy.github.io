@@ -630,7 +630,8 @@ PROJECTS SECTION
       "img7 text7"
       "img8 text8"
       "img9 text9"
-      "img10 text10";
+      "img10 text10"
+      "img13 text13";
     grid-column-gap: 2em;
     grid-row-gap: 3em;
   }
@@ -769,6 +770,17 @@ PROJECTS SECTION
   }
   .portfolio__text12 {
     grid-area: text12;
+  }
+
+  /* PORTFOLIO PROJECT 13*/
+  .portfolio__item13 {
+    grid-area: img13;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .portfolio__text13 {
+    grid-area: text13;
   }
 
   .portfolio__img {
