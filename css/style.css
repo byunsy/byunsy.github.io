@@ -28,8 +28,7 @@ CUSTOM PROPERTIES
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
 
-  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
-    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 /* Allows fonts to get smaller/bigger when you 
@@ -61,7 +60,7 @@ body {
 }
 
 section {
-  padding: 5em 2em;
+  padding: 5em 2em 2em;
 }
 
 img {
@@ -101,7 +100,6 @@ BUTTONS
 }
 
 .btn:hover {
-  /* transform: scale(1.05); */
   color: var(--clr-dark);
   border: 2px solid var(--clr-dark);
 }
@@ -163,6 +161,113 @@ h3 {
 }
 
 /* ============================================================================
+TITLE DECORATION SECTION 
+============================================================================ */
+h2 {
+  position: relative;
+}
+
+h2 span {
+  background-color: white;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 1.5px solid var(--clr-dark);
+  z-index: -1;
+}
+
+@media (min-width: 680px) {
+  h2 span {
+    background-color: white;
+    padding-right: 1.25rem;
+    padding-left: 0;
+  }
+}
+
+/* ============================================================================
+SVG ARROW SECTION 
+============================================================================ */
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  right: 10%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+@media (min-height: 500px) {
+  .arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+  }
+}
+
+.arrows path {
+  stroke: var(--clr-dark);
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 3s infinite;
+  -webkit-animation: arrow 3s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.8;
+  }
+
+  60% {
+    opacity: 0.4;
+  }
+
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+}
+
+.arrows path.a2 {
+  animation-delay: -0.7s;
+  -webkit-animation-delay: -0.7s;
+}
+
+/* ============================================================================
 HEADER SECTION 
 ============================================================================ */
 header {
@@ -172,7 +277,7 @@ header {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 100px;
 }
 
 /* ============================================================================
@@ -196,7 +301,6 @@ NAVIGATION SECTION
 .nav {
   position: fixed;
   background-color: var(--clr-dark);
-  /* background-color: #111; */
   color: var(--clr-light-blue);
   top: 0;
   bottom: 0;
@@ -315,203 +419,173 @@ NAVIGATION SECTION
 INTRO SECTION 
 ============================================================================ */
 .intro {
-  position: relative;
+  height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 10vh;
 }
 
-.intro__img {
-  box-shadow: var(--bs);
-  margin-bottom: 1em;
-  max-width: 400px;
+.hello {
+  margin-bottom: -0.3rem;
+  transform: translateX(1%);
 }
 
-.title__links {
-  list-style: none;
+.section__title--intro {
+  font-size: 15vw;
 }
 
-.title__links li {
+.below-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.view-resume {
+  max-width: 200px;
+}
+
+.below-title i {
   transition: 300ms;
 }
 
-.title__links li:hover {
-  color: var(--clr-dark);
-  cursor: pointer;
+/* .blush {
+  display: none;
+} */
+
+/* @media (min-width: 1090px) {
+  .blush {
+    display: inline;
+    position: absolute;
+    top: -35vh;
+    left: 40vw;
+    width: 70%;
+    z-index: -1;
+  }
+
+  #circle2,
+  #circle5 {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--clr-dark);
+    border-radius: 50%;
+  }
+
+  #circle3 {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: var(--clr-gray-blue);
+    border-radius: 50%;
+  }
+  #circle1,
+  #circle4 {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: var(--clr-accent);
+    border-radius: 50%;
+  }
+
+  #circle1 {
+    position: absolute;
+    top: -10vh;
+    left: 40vw;
+  }
+  #circle2 {
+    position: absolute;
+    top: -28vh;
+    left: 45vw;
+  }
+  #circle3 {
+    position: absolute;
+    top: -40vh;
+    left: 60vw;
+  }
+  #circle4 {
+    position: absolute;
+    top: -25vh;
+    left: 60vw;
+  }
+  #circle5 {
+    position: absolute;
+    top: -15vh;
+    left: 67vw;
+  }
+} */
+
+.view-resume:hover i {
+  transform: translateX(0.75rem);
 }
 
-/* ===   When screen width is at least 680px   === */
+.social-list-intro {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  margin: 2em 0 0;
+  transform: translateX(-5%);
+}
+
+.social-list-intro__item {
+  margin: 0 0.5em;
+}
+
+.social-list-intro__link {
+  padding: 0.5em;
+  transition: 300ms;
+  color: var(--clr-dark);
+}
+
+.social-list-intro__link:hover {
+  color: var(--clr-accent);
+}
+
+.bar-list {
+  display: none;
+}
+
+@media (min-width: 1090px) {
+  .social-list-intro {
+    display: none;
+  }
+  .social-list-intro2 {
+    list-style: none;
+    transform: translate(-57px, -200px);
+  }
+  .social-list-intro__item {
+    margin: 1rem 0;
+  }
+  .bar-list {
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    left: 60px;
+    height: 200px;
+    width: 1px;
+    background: #111;
+  }
+}
+
 @media (min-width: 680px) {
   .intro {
-    display: grid;
-    width: min-content;
+    height: 100vh;
     margin: 0 auto;
-    margin-bottom: 1em;
-    grid-template-areas:
-      "bar2  img   img"
-      "title title bar1"
-      "links links bar1";
+    padding-left: 110px;
   }
-
-  .intro__img {
-    grid-area: img;
-    min-width: 250px;
-    max-width: 250px;
-    position: relative;
-    justify-self: flex-end;
-  }
-
   .section__title--intro {
-    grid-area: title;
-    grid-column: -1/1;
-    grid-row: 2;
-    text-align: right;
-    position: relative;
-    left: -4.3em;
-    width: calc(100% + 4em);
-    margin-bottom: 0.2em;
+    font-size: 5rem;
+    max-width: 30vw;
+    min-width: 450px;
   }
-
-  .below_title {
-    grid-area: links;
-  }
-
-  .title__links {
-    list-style: none;
-    display: flex;
-    text-align: right;
-  }
-
-  .title__links li {
-    padding-left: 1em;
-    width: 5.5em;
-  }
-
-  .bar1 {
-    grid-area: bar1;
-    background-color: gray;
-    margin-left: 1em;
-    margin-top: 1em;
-    height: 87px;
-    width: 8px;
-  }
-
-  .bar2 {
-    grid-area: bar2;
-    background-color: var(--clr-light-blue);
-    margin-right: 0.5em;
-    margin-top: 4.7em;
-    height: 137px;
-    width: 8px;
-    justify-self: end;
-    transform: translateX(7.8em);
-  }
-
-  .bar2 p {
-    transform: rotate(-90deg);
-    margin-top: -1.5em;
-    margin-right: 1em;
+  .below-title {
+    max-width: 35vw;
+    min-width: 500px;
   }
 }
 
-/* ===   This is for the middle-sized screen width      === */
-/* ===   When screen width is between 680px and 869px   === */
-@media (min-width: 680px) and (max-width: 869px) {
-  /* .section__title--intro {
-    width: 300px;
-  } */
-
-  .section__title--intro {
-    grid-area: title;
-    grid-column: -1/1;
-    grid-row: 2;
-    text-align: right;
-    position: relative;
-    left: -4.3em;
-    width: calc(100% + 4em);
-    margin-bottom: 0.2em;
-  }
-
-  .bar1 {
-    grid-area: bar1;
-    background-color: gray;
-    margin-left: 1em;
-    margin-top: 1em;
-    height: 65px;
-    width: 8px;
-  }
-
-  .bar2 {
-    grid-area: bar2;
-    background-color: var(--clr-light-blue);
-    margin-right: 0.5em;
-    margin-top: 5.7em;
-    height: 137px;
-    width: 8px;
-    justify-self: end;
-    transform: translateX(6em);
-  }
-
-  .bar2 p {
-    transform: rotate(-90deg);
-    margin-top: -1.5em;
-    margin-right: 1em;
-    font-size: 1.2em;
-  }
-}
-
-/* ===   This is for small screen widths      === */
-/* ===   When screen width is less than 679px   === */
-@media (max-width: 679px) {
-  .intro__img {
-    margin: 0 auto;
-    margin-bottom: 2em;
-    max-width: 250px;
-  }
-
-  .section__title--intro {
-    text-align: center;
-  }
-
-  .bar2 p {
-    text-align: center;
-    font-size: 1.3em;
-    margin-top: 0.5em;
-    color: var(--clr-dark);
-  }
-
-  .bar2 p::after {
-    content: "";
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background-color: var(--clr-gray-blue);
-    opacity: 0.5;
-  }
-
-  .title__links {
-    display: flex;
-    text-align: center;
-    padding-left: 0;
-    justify-content: center;
-  }
-
-  .title__links li {
-    padding-left: 1em;
-    width: 5.5em;
-  }
-}
-
-/* Some edge cases for mobile views only */
-@media (max-width: 400px) {
-  .title__links {
-    display: block;
-    text-align: center;
-    padding-left: 0;
-    align-items: center;
-  }
-  .title__links li {
-    padding-left: 0;
-    padding-top: 1em;
-    margin: 0 auto;
+@media (min-width: 400px) {
+  .social-list-intro {
+    transform: translateX(-1rem);
   }
 }
 
@@ -525,7 +599,6 @@ ABOUT ME SECTION
 
 .about-me__img {
   box-shadow: var(--bs);
-  transition: 500ms;
   max-width: 350px;
 }
 
@@ -551,14 +624,14 @@ ABOUT ME SECTION
     grid-area: img;
     position: relative;
     z-index: 2;
-    margin-top: 3em;
+    margin-top: 1.4em;
   }
 }
 
 @media (max-width: 680px) {
   .about-me__img {
     margin: 0 auto;
-    margin-top: 3em;
+    /* margin-top: 3em; */
   }
 
   .section__title--about {
@@ -567,7 +640,7 @@ ABOUT ME SECTION
 
   .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 }
 
@@ -578,11 +651,134 @@ ABOUT ME SECTION
 }
 
 /* ============================================================================
+EXPERIENCES SECTION 
+============================================================================ */
+.my-experiences {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.my-experiences h2 {
+  margin: 0 0 1em;
+}
+.my-experiences p {
+  margin: 0 0 1em;
+}
+
+.exp_list {
+  list-style: circle;
+  padding-left: 1.45rem;
+  margin: 0 0 2.25rem;
+}
+.exp_list li {
+  margin-bottom: 0.5rem;
+}
+
+.work-experiences a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Use :before for dash list-style */
+/* .exp_list {
+  list-style: none;
+  padding: 10px;
+}
+.exp_list > li {
+  text-indent: -10px;
+}
+.exp_list > li:before {
+  content: "- ";
+  text-indent: -10px;
+} */
+
+/* @media (max-width: 679px) {
+  .more-about-me-experiences {
+    max-width: 350px;
+  }
+  .more-about-me-experiences h2 {
+    text-align: center;
+  }
+} */
+@media (min-width: 680px) {
+  .work-experiences {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas:
+      "img1 text1"
+      "img2 text2"
+      "img3 text3"
+      "img4 text4"
+      "img5 text5";
+    grid-column-gap: 2em;
+    grid-row-gap: 3em;
+  }
+
+  /* EXPERIENCE 1*/
+  .exp__item1 {
+    grid-area: img1;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .exp__text1 {
+    grid-area: text1;
+    margin-top: 0;
+  }
+
+  /* EXPERIENCE 2*/
+  .exp__item2 {
+    grid-area: img2;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .exp__text2 {
+    grid-area: text2;
+    margin-top: 0;
+  }
+
+  /* EXPERIENCE 3*/
+  .exp__item3 {
+    grid-area: img3;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .exp__text3 {
+    grid-area: text3;
+    margin-top: 0;
+  }
+
+  /* EXPERIENCE 4*/
+  .exp__item4 {
+    grid-area: img4;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .exp__text4 {
+    grid-area: text4;
+    margin-top: 0;
+  }
+
+  /* EXPERIENCE 5*/
+  .exp__item5 {
+    grid-area: img5;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .exp__text5 {
+    grid-area: text5;
+    margin-top: 0;
+  }
+}
+/* ============================================================================
 PROJECTS SECTION 
 ============================================================================ */
 .my-work {
   color: var(--clr-dark);
-  background-color: var(--clr-light);
+  /* background-color: var(--clr-light); */
   max-width: 1000px;
   margin: 0 auto;
   padding-top: 3.5em;
@@ -592,26 +788,24 @@ PROJECTS SECTION
   margin-bottom: 1em;
 }
 
-.portfolio__tag {
-  color: var(--clr-gray-blue);
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0.75rem auto;
-}
-
-.portfolio__tag li {
-  margin-right: 2em;
-  transition: 300ms;
-}
-
-.portfolio__tag li:hover {
-  color: var(--clr-accent);
-}
-
 .portfolio a {
   text-decoration: none;
   color: inherit;
+}
+
+.portfolio__tag {
+  padding-left: 0;
+}
+
+.portfolio__tag li {
+  list-style: none;
+  display: inline;
+  margin-right: 1rem;
+  transition: 300ms;
+  color: var(--clr-gray-blue);
+}
+.portfolio__tag li:hover {
+  color: var(--clr-accent);
 }
 
 @media (min-width: 680px) {
@@ -621,18 +815,19 @@ PROJECTS SECTION
     grid-template-areas:
       "img1 text1"
       "img2 text2"
-      "img11 text11"
-      "img3 text3"
-      "img4 text4"
-      "img12 text12"
       "img5 text5"
+      "img3 text3"
+      "img14 text14"
+      "img4 text4"
       "img6 text6"
+      "img11 text11"
       "img7 text7"
       "img8 text8"
+      "img12 text12"
       "img9 text9"
       "img10 text10"
       "img13 text13"
-      "img14 text14";
+      "img15 text15";
     grid-column-gap: 2em;
     grid-row-gap: 3em;
   }
@@ -795,9 +990,19 @@ PROJECTS SECTION
     grid-area: text14;
   }
 
+  /* PORTFOLIO PROJECT 15*/
+  .portfolio__item15 {
+    grid-area: img15;
+    background-color: var(--clr-light);
+    max-width: 200px;
+    overflow: hidden;
+  }
+  .portfolio__text15 {
+    grid-area: text15;
+  }
+
   .portfolio__img {
-    transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
-      opacity 250ms linear;
+    transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
   }
 
   .portfolio__img:hover {
@@ -826,12 +1031,12 @@ PROJECTS SECTION
   }
 
   .portfolio__img {
-    transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
-      opacity 250ms linear;
+    transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
   }
 
   .portfolio__img:hover {
     opacity: 0.5;
+    transform: translateY(-1%);
   }
 }
 
@@ -842,7 +1047,7 @@ FOOTER SECTION
   background-color: #111;
   color: var(--clr-light-blue);
   text-align: center;
-  padding: 2.5em 0 1.5em;
+  padding: 2.75em 0 3.2em;
 }
 
 .footer a {
@@ -881,193 +1086,4 @@ FOOTER SECTION
 
 .footer__text {
   margin: 3em 0 0;
-}
-
-/* ============================================================================
-MORE ABOUT ME SECTION
-============================================================================ */
-.intro__more {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.more-about-me {
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-.more-about-me-life {
-  padding: 0 0em 2em;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.more-about-me-life p {
-  margin: 2em 0;
-}
-.more-about-me-life img {
-  box-shadow: var(--bs);
-}
-
-.more-about-me-education {
-  padding: 5em 0em 2em;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.more-about-me-education p {
-  margin: 0;
-}
-.more-about-me-education h2 {
-  margin: 0 0 1em;
-}
-.more-about-me-education h3 {
-  margin-top: 1em;
-}
-.more-about-me-education li {
-  list-style: circle;
-}
-.more-about-me-education img {
-  margin: 0 auto;
-}
-
-@media (max-width: 679px) {
-  .more-about-me-education {
-    max-width: 350px;
-    padding: 3em 0 2em;
-  }
-  .more-about-me-education h2 {
-    text-align: center;
-  }
-}
-
-@media (min-width: 680px) {
-  .education-list {
-    display: grid;
-    grid-template-columns: 200px auto;
-    grid-template-areas:
-      "img1 text1"
-      "img2 text2";
-    grid-column-gap: 2em;
-    grid-row-gap: 3em;
-  }
-
-  /* EDUCATION 1*/
-  .edu__item1 {
-    grid-area: img1;
-    background-color: var(--clr-light);
-    max-width: 200px;
-    overflow: hidden;
-  }
-  .edu__text1 {
-    grid-area: text1;
-    margin-top: 0;
-  }
-
-  /* EDUCATION 2*/
-  .edu__item2 {
-    grid-area: img2;
-    background-color: var(--clr-light);
-    max-width: 200px;
-    overflow: hidden;
-  }
-  .edu__text2 {
-    grid-area: text2;
-    margin-top: 0;
-  }
-}
-
-.more-about-me-experiences {
-  padding: 5em 0em 2em;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.more-about-me-experiences h2 {
-  margin: 0 0 1em;
-}
-.more-about-me-experiences p {
-  margin: 0 0 1em;
-}
-.more-about-me-experiences img {
-  margin: 0 auto;
-}
-
-/* Use :before for dash list-style */
-.exp_list {
-  list-style: none;
-  padding: 10px;
-}
-.exp_list > li {
-  text-indent: -10px;
-}
-.exp_list > li:before {
-  content: "- ";
-  text-indent: -10px;
-}
-
-@media (max-width: 679px) {
-  .more-about-me-experiences {
-    max-width: 350px;
-  }
-  .more-about-me-experiences h2 {
-    text-align: center;
-  }
-}
-@media (min-width: 680px) {
-  .experiences-list {
-    display: grid;
-    grid-template-columns: 200px auto;
-    grid-template-areas:
-      "img1 text1"
-      "img2 text2"
-      "img3 text3";
-    grid-column-gap: 2em;
-    grid-row-gap: 3em;
-  }
-
-  /* EXPERIENCE 1*/
-  .exp__item1 {
-    grid-area: img1;
-    background-color: var(--clr-light);
-    max-width: 200px;
-    overflow: hidden;
-  }
-  .exp__text1 {
-    grid-area: text1;
-    margin-top: 0;
-  }
-
-  /* EXPERIENCE 2*/
-  .exp__item2 {
-    grid-area: img2;
-    background-color: var(--clr-light);
-    max-width: 200px;
-    overflow: hidden;
-  }
-  .exp__text2 {
-    grid-area: text2;
-    margin-top: 0;
-  }
-
-  /* EXPERIENCE 3*/
-  .exp__item3 {
-    grid-area: img3;
-    background-color: var(--clr-light);
-    max-width: 200px;
-    overflow: hidden;
-  }
-  .exp__text3 {
-    grid-area: text3;
-    margin-top: 0;
-  }
-}
-
-/* ============================================================================
-INDIVIDUAL PORTFOLIO ITEM SECTIONS
-============================================================================ */
-.portfolio-item-individual {
-  padding: 0 2em 2em;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.portfolio-item-individual p {
-  margin: 2em 0;
 }
