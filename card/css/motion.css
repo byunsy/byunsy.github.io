@@ -99,7 +99,7 @@ FRONT
   width:  100%;
   height: 100%;
   background: url(../image/banner.png) center top/50% no-repeat;
-  transform: translate3d(50px, 0px, 10px);
+  transform: translate3d(50px, 0px, 25px);
 }
 .contentWrap .front .sun {
   position: absolute;
@@ -131,25 +131,25 @@ FRONT
   opacity: 0.8;
   z-index: 10;
 }
-.contentWrap .front .m1 {
+.contentWrap .front .flower1 {
   position: absolute;
   bottom: 0;
   right: 0;
   width:  100%;
   height: 100%;
   background: url(../image/flower1.png) right bottom/30% no-repeat;
-  transform: translate3d(10px, 10px, 20px);
+  transform: translate3d(10px, 9px, 20px);
 }
-.contentWrap .front .m2 {
+.contentWrap .front .flower2 {
   position: absolute;
   bottom: 0;
   right: 0;
   width:  100%;
   height: 100%;
   background: url(../image/flower5.png) right bottom/20% no-repeat;
-  transform: translate3d(-100px, 4px, 40px);
+  transform: translate3d(-90px, 4px, 40px);
 }
-.contentWrap .front .m3 {
+.contentWrap .front .car {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -167,17 +167,56 @@ FRONT
   background: url(../image/snow.png) center bottom/90% no-repeat;
   transform: translate3d(0, 0, 80px);
 } */
-.contentWrap .front .cow {
+.contentWrap .front .box {
+  position: absolute;
+  width:  100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background: url(../image/box.png) left bottom/13% no-repeat;
+  transform: translate3d(80px, 3px, 50px);
+}
+.contentWrap .front .bird2 {
   position: absolute;
   width:  70px;
   height: 90px;
   bottom: 0;
   left: 0;
   z-index: 10;
-  background: url(../image/box.png) left bottom/100% no-repeat;
-  transform: translate3d(30px, 4px, 60px);
+  background: url(../image/bird2.png) left bottom/100% no-repeat;
+  transform: translate3d(310px, -160px, 40px);
 }
-
+.contentWrap .front .balloon {
+  position: absolute;
+  width:  100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background: url(../image/balloon.png) left bottom/20% no-repeat;
+  transform: translate3d(5px, -120px, 30px);
+}
+.contentWrap .front .bouquet {
+  position: absolute;
+  width:  100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background: url(../image/bouquet.png) left bottom/27% no-repeat;
+  transform: translate3d(5px, 3px, 30px);
+}
+.contentWrap .front .heart {
+  position: absolute;
+  width:  100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background: url(../image/heart.png) left bottom/22% no-repeat;
+  transform: translate3d(200px, -80px, 10px);
+}
 /* ========================================================= 
 BACK
 ============================================================ */
@@ -202,18 +241,31 @@ BACK
   transform-origin: bottom;
   transform: translate3d(-20px, 0px, 2px);
   color: #000;
-  font-family: "Handlee", cursive, "Apple SD Gothic Neo", arial;
+  /* font-family: "Handlee", cursive, "Apple SD Gothic Neo", arial; */
 }
-.contentWrap .back .msg {
+.contentWrap .back .msg1 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 100;
+  top: 55px;
+  left: 0px;
+  transform-origin: bottom;
+  transform: translate3d(0px, 0px, 2px);
+  color: #000;
+}
+.contentWrap .back .msg2 {
   position: absolute;
   display: block;
   width: 100%;
   font-size: 12px;
   text-align: center;
   font-weight: 100;
-  top: 100px;
+  top: 110px;
   left: 0px;
   transform-origin: bottom;
   transform: translate3d(0px, 0px, 2px);
   color: #000;
-}/*# sourceMappingURL=motion.css.map */
+}
