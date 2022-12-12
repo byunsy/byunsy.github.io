@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 body {
-  background: #d6e6ffec;
+  /* background: #d6e6ffec; */
+  background: #EFECE4;
   overflow: hidden;
 }
 
@@ -81,7 +82,10 @@ FRONT
   position: relative;
   width: 400px;
   height: 250px;
-  background: #10264a;
+  /* background: #d6e6ffec; */
+  /* background: #10264a; */
+  background: url(../image/background.jpg) center center/100% no-repeat;
+
   transform: rotateX(-10deg);
   transform-origin: bottom center;
   transform-style: preserve-3d;
@@ -92,19 +96,20 @@ FRONT
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 200px;
-  background: url(../image/text.png) center top/200px no-repeat;
-  transform: translate3d(55px, 40px, 57px);
+  width:  100%;
+  height: 100%;
+  background: url(../image/banner.png) center top/50% no-repeat;
+  transform: translate3d(50px, 0px, 10px);
 }
 .contentWrap .front .sun {
   position: absolute;
-  top: 0;
+  top: 100px;
   left: 0;
-  width: 100px;
-  height: 100px;
-  background: url(../image/sun.png) center bottom/60px no-repeat;
-  transform: translate3d(30px, 50px, 10px);
+  width:  100%;
+  height: 100%;
+  background: url(../image/house.png) center bottom/40% no-repeat;
+  transform: translate3d(-100px, -150px, 20px);
+  object-fit:cover;
 }
 .contentWrap .front .cloud1 {
   position: absolute;
@@ -130,47 +135,47 @@ FRONT
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 90%;
-  height: 200px;
-  background: url(../image/m1.png) right bottom/55% no-repeat;
-  transform: translate3d(-8px, 0, 26px);
+  width:  100%;
+  height: 100%;
+  background: url(../image/flower1.png) right bottom/30% no-repeat;
+  transform: translate3d(10px, 10px, 20px);
 }
 .contentWrap .front .m2 {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 90%;
-  height: 200px;
-  background: url(../image/m2.png) right bottom/100% no-repeat;
-  transform: translate3d(-10px, 0, 45px);
+  width:  100%;
+  height: 100%;
+  background: url(../image/flower5.png) right bottom/20% no-repeat;
+  transform: translate3d(-100px, 4px, 40px);
 }
-.contentWrap .front .snow {
+.contentWrap .front .m3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width:  100%;
+  height: 100%;
+  background: url(../image/car.png) right bottom/40% no-repeat;
+  transform: translate3d(-130px, 9px, 20px);
+}
+/* .contentWrap .front .snow {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 230px;
   background: url(../image/snow.png) center bottom/90% no-repeat;
-  transform: translate3d(0, 0, 35px);
-}
-.contentWrap .front .m3 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 90%;
-  height: 200px;
-  background: url(../image/m3.png) right bottom/75% no-repeat;
-  transform: translate3d(-20px, 0, 70px);
-}
+  transform: translate3d(0, 0, 80px);
+} */
 .contentWrap .front .cow {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width:  70px;
+  height: 90px;
   bottom: 0;
   left: 0;
   z-index: 10;
-  background: url(../image/cow.png) center center/100% no-repeat;
-  transform: translate3d(65px, -9px, 48px);
+  background: url(../image/box.png) left bottom/100% no-repeat;
+  transform: translate3d(30px, 4px, 60px);
 }
 
 /* ========================================================= 
