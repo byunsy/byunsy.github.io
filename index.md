@@ -5,7 +5,7 @@ title: Sang Yoon Byun
 
 ## Introduction
 
-Hello! I'm a Ph.D. student in Computer Science at the **University of California, San Diego**, advised by **[Vikas Bansal](https://bansal-lab.github.io/)**. 
+Hello! I'm a Ph.D. student in Computer Science at the University of California, San Diego, advised by [Vikas Bansal](https://bansal-lab.github.io/). 
 
 My research focuses on developing computational methods for end-to-end variant analysis of paralogous genes, spanning copy number estimation, variant calling, and variant interpretation using whole-genome and whole-exome sequencing data.
 
@@ -17,17 +17,17 @@ My research focuses on developing computational methods for end-to-end variant a
 **University of California, San Diego** \
 *Ph.D. Candidate, Computer Science* \
 Thesis: Computational Framework for End-to-End Variant Analysis of Paralogous Genes \
-Committee: Vineet Bafna, Melissa Gymrek, Niema Moshiri, Vikas Bansal \
+Committee: [Vineet Bafna](https://vbafna.github.io/), [Melissa Gymrek](https://gymreklab.com/), [Niema Moshiri](https://niema.net/), [Vikas Bansal](https://bansal-lab.github.io/) \
 Advisor: Vikas Bansal
 
 
 **University of California, San Diego** \
 *M.S., Computer Science* \
-Advisor: Vikas Bansal
+Advisor: [Vikas Bansal](https://bansal-lab.github.io/)
 
 **Grinnell College** \
 *B.A., Computer Science &nbsp;·&nbsp; Minor in Policy Studies* \
-Advisor: Jerod Weinman
+Advisor: [Jerod Weinman](https://weinman.cs.grinnell.edu/)
 
 
 ## Professional Experience
