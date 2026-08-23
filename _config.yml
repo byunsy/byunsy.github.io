@@ -1,6 +1,9 @@
 # Site settings
 title: Sang Yoon Byun
 description: Computer Science Ph.D. Candidate at UC San Diego
+# Sidebar tagline shown on two lines (falls back to `description` if unset)
+role: Computer Science Ph.D. Candidate
+affiliation: UC San Diego
 author: Sang Yoon Byun
 lang: en-US
 
