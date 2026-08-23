@@ -31,26 +31,33 @@
   margin: 0 0 4px 0;
 }
 
-a {
-  color: #000000;
-  text-decoration: none;
-}
-
 .social-icons a {
   display: inline-flex;
+  align-items: center;
   color: #555;
   transition: color 0.15s ease;
 }
 
 .social-icons a:hover {
-  color: #267CB9;
+  color: #EFBF04;
 }
 
 .social-icons svg {
-  width: 22px;
+  width: auto;
   height: 22px;
   fill: currentColor;
 }
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EFBF04;
+  text-decoration: none;
+}
+
 
 /* Slightly calmer heading spacing in the main column */
 section h2 {
