@@ -1,0 +1,68 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ---- Light overrides for a personal CV page ---- */
+
+/* Square profile photo at the top of the sidebar */
+.profile-photo {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin: 0 0 18px 0;
+}
+
+/* Email shown as plain text (anti-scrape); not a clickable mailto */
+.email {
+  color: #555;
+  word-break: break-word;
+  margin: 6px 0 14px 0;
+}
+
+/* Row of social/CV icons */
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 0 0 4px 0;
+}
+
+.social-icons a {
+  display: inline-flex;
+  color: #555;
+  transition: color 0.15s ease;
+}
+
+.social-icons a:hover {
+  color: #267CB9;
+}
+
+.social-icons svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+/* Slightly calmer heading spacing in the main column */
+section h2 {
+  margin-top: 28px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* Horizontal rules act as light section dividers */
+section hr {
+  border: 0;
+  border-top: 1px solid #eaeaea;
+  margin: 24px 0;
+}
+
+/* Comfortable reading width and line height */
+section p,
+section li {
+  line-height: 1.5;
+}

@@ -1,0 +1,27 @@
+# Site settings
+title: Sang Yoon Byun
+description: Computer Science Ph.D. Candidate at UC San Diego
+author: Sang Yoon Byun
+lang: en-US
+
+# Theme (GitHub Pages supported theme by orderedlist)
+theme: jekyll-theme-minimal
+
+# Contact / social links shown in the sidebar.
+email: sabyun [at] ucsd [dot] edu
+photo: /assets/files/photo.jpg
+github_username: byunsy
+scholar_url: https://scholar.google.com/citations?user=-1PWyi0AAAAJ&hl=en
+linkedin_url: https://www.linkedin.com/in/sangyoonbyun/
+cv_url: /assets/files/Sang_Yoon_Byun_CV.pdf
+
+# Hide the theme's default download buttons
+show_downloads: false
+
+url: https://byunsy.github.io
+
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
