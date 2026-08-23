@@ -3,54 +3,66 @@ layout: default
 title: Sang Yoon Byun
 ---
 
-## Introduction! 
+## Introduction
 
-Hello! I am a Ph.D. student in Computer Science at the **University of California, San Diego**, advised by [Vikas Bansal](https://bansal-lab.github.io/). My research focuses on developing computational methods for end-to-end variant analysis of paralogous genes, spanning copy number estimation, aggregate variant calling, and variant interpretation using short-read and exome sequencing data.
+Hello! I'm a Ph.D. student in Computer Science at the **University of California, San Diego**, advised by [Vikas Bansal](https://bansal-lab.github.io/). My research focuses on developing computational methods for end-to-end variant analysis of paralogous genes, spanning copy number estimation, variant calling, and variant interpretation using whole-genome and whole-exome sequencing data.
 
 
 ## Education
 
-**University of California, San Diego** 
-Ph.D., Computer Science 
-*Thesis:* Computational Framework for End-to-End Variant Analysis of Paralogous Genes 
-*Committee:* Vineet Bafna, Melissa Gymrek, Niema Moshiri, Vikas Bansal 
-*Advisor:* Vikas Bansal
+**University of California, San Diego** \
+*Ph.D. Candidate, Computer Science* \
+Thesis: Computational Framework for End-to-End Variant Analysis of Paralogous Genes \
+Committee: Vineet Bafna, Melissa Gymrek, Niema Moshiri, Vikas Bansal \
+Advisor: Vikas Bansal
 
-**University of California, San Diego** 
-M.S., Computer Science &nbsp;·&nbsp; *Advisor:* Vikas Bansal
 
-**Grinnell College** 
-B.A., Computer Science &nbsp;·&nbsp; Minor in Policy Studies &nbsp;·&nbsp; *Advisor:* Jerod Weinman
+**University of California, San Diego** \
+*M.S., Computer Science* \
+Advisor: Vikas Bansal
+
+**Grinnell College** \
+*B.A., Computer Science &nbsp;·&nbsp; Minor in Policy Studies* \
+Advisor: Jerod Weinman
 
 
 ## Professional Experience
 
-**Nurix Therapeutics, Inc.** 
-*Cheminformatics & Machine Learning Intern* (Jun–Sep 2026)
+**Nurix Therapeutics, Inc.** \
+*Cheminformatics & Machine Learning Intern &nbsp;·&nbsp; Jun – Sep 2026* \
+Developing computational tools to analyze DNA-encoded library (DEL) selection data and identify sequence-driven binding signals.
 
-**Allen Institute for Brain Science** 
-*Computational Neuroscience Intern* (Jun–Aug 2022) 
-Built a Python package using dataset alignment and semi-supervised clustering to correct
-non-biological shifts and reduce noise across large electrophysiology datasets.
+**Allen Institute for Brain Science** \
+*Computational Neuroscience Intern &nbsp;·&nbsp; Jun – Aug 2022* \
+Built a Python package using dataset alignment and semi-supervised clustering to correct non-biological shifts and reduce noise across large electrophysiology datasets.
 
-**Artificial Intellgience Institute of Seoul National University** 
-*Computational Immunology Intern* (Apr–Aug 2021) 
+**Artificial Intellgience Institute of Seoul National University** \
+*Computational Immunology Intern &nbsp;·&nbsp; Apr – Aug 2021* \
 Applied NLP-based deep embedding techniques to protein sequences to classify B-cell receptor repertoires of COVID-19 patients and healthy subjects with over 87% accuracy.
 
-**Los Alamos National Laboratory** 
-*Parallel Computing Research Intern* (Jun–Aug 2020) 
+**Los Alamos National Laboratory** \
+*Parallel Computing Research Intern &nbsp;·&nbsp; Jun – Aug 2020* \
 Optimized high-performance computational fluid dynamics code by porting Fortran to C/C++.
 
 
 ## Teaching
 
-**UC San Diego**
-- *Head Teaching Assistant*, CSE 29: Systems Programming and Software Tools (Mar–Jun 2026)
-- *Mentor Teaching Assistant*, CSE 599: Teaching Methods in Computer Science (Jan–Mar 2026)
-- *Teaching Assistant*, CSE 8A / 6R: Introduction to Programming (Sep–Dec 2025)
+**University of California, San Diego**
+
+*Head Teaching Assistant &nbsp;·&nbsp; Mar – Jun 2026* \
+CSE 29: Systems Programming and Software Tools 
+
+*Mentor Teaching Assistant &nbsp;·&nbsp; Jan – Mar 2026* \
+CSE 599: Teaching Methods in Computer Science
+
+*Teaching Assistant &nbsp;·&nbsp; Sep – Dec 2025* \
+CSE 8A / 6R: Introduction to Programming 
+
 
 **Grinnell College**
-- *Undergraduate Teaching Mentor*, FairyBytes Programming Club (Jan–May 2022)
+
+*Undergraduate Teaching Mentor &nbsp;·&nbsp; Jan – May 2022* \
+FairyBytes Programming Club
 
 
 ## Publications
@@ -73,21 +85,37 @@ Inyoung Kim, **Sang Yoon Byun**, Sangyeup Kim, et al.
 
 ## Selected Presentations
 
-- **[Oral]** *Accurate copy number estimation for paralogous genes using exome data.*
-  Intelligent Systems for Molecular Biology (ISMB), Washington, DC, Jul 2026.
-- **[Oral]** *Accurate estimation of copy number for duplicated genes using whole-exome sequencing.*
-  Research in Computational Molecular Biology (RECOMB), Seoul, South Korea, Apr 2025.
-- **[Poster]** *Likelihood-based optimization for copy number estimation of paralogous genes.*
-  UC San Diego 44th Annual Research Expo, La Jolla, CA, Apr 2026.
+[Oral] **Accurate copy number estimation for paralogous genes using exome data.**
+Intelligent Systems for Molecular Biology (ISMB), Washington, DC, Jul 2026.
 
+[Poster] **Likelihood-based optimization for copy number estimation of paralogous genes.**
+UC San Diego 44th Annual Research Expo, La Jolla, CA, Apr 2026.
+
+[Oral] **Accurate estimation of copy number for duplicated genes using whole-exome sequencing.**
+Research in Computational Molecular Biology (RECOMB), Seoul, South Korea, Apr 2025.
+
+[Poster] **Dataset alignment and integration: Exploring electrophysiology shifts in acute versus culture interneurons and human neocortical layer 1 cells**
+Allen Institute for Brain Science: Summer Intern Symposium, Seattle, WA, Aug 2022.
+
+[Oral] **CD3 B-cell receptor repertoires as deep embedded representation of protein sequences**
+Artificial Intelligence Institute at Seoul National University, Seoul, South Korea, Jun 2021.
+
+[Poster] **Lagrangian Particle Models in HIGRAD/FIRETEC and FIESTA**
+Los Alamos National Laboratory, Parallel Computing Summer Research Institute, Los Alamos, NM, Aug 2020.
 
 ## Honors & Awards
 
-- **Doctoral Award for Excellence in Teaching**, UC San Diego, Department of Computer Science and Engineering, Jun 2026.
-- **ISMB Conference Fellowship**, International Society for Computational Biology, May 2026.
+- **Doctoral Award for Excellence in Teaching** \
+University of California, San Diego &nbsp;·&nbsp; Jun 2026
+
+- **ISMB Conference Fellowship** \
+International Society for Computational Biology &nbsp;·&nbsp; May 2026
 
 
 ## Service
 
-- **Venture Fellow**, UC San Diego Rady School of Management (Apr 2024 – Jun 2025)
-- **Graduate Student Panelist**, UC San Diego Warren College Honors Council (Feb 2026)
+- **Venture Fellow** \
+UC San Diego Rady School of Management (Apr 2024 – Jun 2025)
+
+- **Graduate Student Panelist** \
+UC San Diego Warren College Honors Council (Feb 2026)
