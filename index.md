@@ -40,7 +40,7 @@ Developing computational tools to analyze DNA-encoded library (DEL) selection da
 *Computational Neuroscience Intern &nbsp;·&nbsp; Jun – Aug 2022* \
 Built a Python package using dataset alignment and semi-supervised clustering to correct non-biological shifts and reduce noise across large electrophysiology datasets.
 
-**Artificial Intellgience Institute of Seoul National University** \
+**Artificial Intelligence Institute of Seoul National University** \
 *Computational Immunology Intern &nbsp;·&nbsp; Apr – Aug 2021* \
 Applied NLP-based deep embedding techniques to protein sequences to classify B-cell receptor repertoires of COVID-19 patients and healthy subjects with over 87% accuracy.
 
