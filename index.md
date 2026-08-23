@@ -5,7 +5,11 @@ title: Sang Yoon Byun
 
 ## Introduction
 
-Hello! I'm a Ph.D. student in Computer Science at the **University of California, San Diego**, advised by [Vikas Bansal](https://bansal-lab.github.io/). My research focuses on developing computational methods for end-to-end variant analysis of paralogous genes, spanning copy number estimation, variant calling, and variant interpretation using whole-genome and whole-exome sequencing data.
+Hello! I'm a Ph.D. student in Computer Science at the **University of California, San Diego**, advised by **[Vikas Bansal](https://bansal-lab.github.io/)**. 
+
+My research focuses on developing computational methods for end-to-end variant analysis of paralogous genes, spanning copy number estimation, variant calling, and variant interpretation using whole-genome and whole-exome sequencing data.
+
+*Keywords:&nbsp; Bioinformatics · Algorithms · Genomics · Cheminformatics*
 
 
 ## Education
@@ -45,7 +49,7 @@ Applied NLP-based deep embedding techniques to protein sequences to classify B-c
 Optimized high-performance computational fluid dynamics code by porting Fortran to C/C++.
 
 
-## Teaching
+## Teaching Experience
 
 **University of California, San Diego**
 
@@ -114,8 +118,17 @@ International Society for Computational Biology &nbsp;·&nbsp; May 2026
 
 ## Service
 
-- **Venture Fellow** \
-UC San Diego Rady School of Management (Apr 2024 – Jun 2025)
+- **Graduate Student Mentor Panelist** \
+UC San Diego Warren College Honors Council &nbsp;·&nbsp; Feb 2026
 
-- **Graduate Student Panelist** \
-UC San Diego Warren College Honors Council (Feb 2026)
+- **Venture Fellow - Clinical diagnostics startup** \
+UC San Diego Rady School of Management &nbsp;·&nbsp; Apr 2025 – Jun 2025
+
+- **Venture Fellow - Agricultural technology startup** \
+UC San Diego Rady School of Management &nbsp;·&nbsp; Jun 2024 – Sep 2024
+
+- **Venture Fellow - Spatial transcriptomics startup** \
+UC San Diego Rady School of Management &nbsp;·&nbsp; Apr 2024 – Jun 2024
+
+- **Volunteer Full Stack Developer** \
+Develop for Good &nbsp;·&nbsp; Apr – Jun 2021
