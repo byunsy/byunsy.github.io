@@ -5,7 +5,7 @@ title: Sang Yoon Byun
 
 ## Introduction
 
-Hello! I'm a Ph.D. student in Computer Science at the University of California, San Diego, advised by [Vikas Bansal](https://bansal-lab.github.io/). 
+Hello! I'm a Ph.D. student in Computer Science at the University of California, San Diego, advised by Vikas Bansal. 
 
 My research focuses on developing computational methods for end-to-end variant analysis of paralogous genes, spanning copy number estimation, variant calling, and variant interpretation using whole-genome and whole-exome sequencing data.
 
@@ -18,7 +18,7 @@ My research focuses on developing computational methods for end-to-end variant a
 *Ph.D. Candidate, Computer Science* \
 Thesis: Computational Framework for End-to-End Variant Analysis of Paralogous Genes \
 Committee: [Vineet Bafna](https://vbafna.github.io/), [Melissa Gymrek](https://gymreklab.com/), [Niema Moshiri](https://niema.net/), [Vikas Bansal](https://bansal-lab.github.io/) \
-Advisor: Vikas Bansal
+Advisor: [Vikas Bansal](https://bansal-lab.github.io/)
 
 
 **University of California, San Diego** \
@@ -72,17 +72,17 @@ FairyBytes Programming Club
 ## Publications
 
 **Aggregate variant calling using short reads enables population and disease studies for paralogous genes.**
-Timothy Prodanov, **Sang Yoon Byun**, and Vikas Bansal.
+Timothy Prodanov, <u>Sang Yoon Byun</u>, and Vikas Bansal.
 *Human Genetics and Genomics Advances*, 2026.
 [doi:10.1016/j.xhgg.2026.100653](https://doi.org/10.1016/j.xhgg.2026.100653)
 
 **Likelihood-based optimization enables accurate copy number estimation for paralogous genes using exome data.**
-**Sang Yoon Byun** and Vikas Bansal.
+<u>Sang Yoon Byun</u> and Vikas Bansal.
 *Bioinformatics*, Oxford University Press, 2026.
 [doi:10.1093/bioinformatics/btag221](https://doi.org/10.1093/bioinformatics/btag221)
 
 **Computational analysis of B cell receptor repertoires in COVID-19 patients using deep embedded representations of protein sequences.**
-Inyoung Kim, **Sang Yoon Byun**, Sangyeup Kim, et al.
+Inyoung Kim, <u>Sang Yoon Byun</u>, Sangyeup Kim, et al.
 *bioRxiv*, 2021.
 [biorxiv.org/…/2021.08.02.454701v3](https://www.biorxiv.org/content/10.1101/2021.08.02.454701v3)
 
@@ -98,13 +98,13 @@ UC San Diego 44th Annual Research Expo, La Jolla, CA, Apr 2026.
 [Oral] **Accurate estimation of copy number for duplicated genes using whole-exome sequencing.**
 Research in Computational Molecular Biology (RECOMB), Seoul, South Korea, Apr 2025.
 
-[Poster] **Dataset alignment and integration: Exploring electrophysiology shifts in acute versus culture interneurons and human neocortical layer 1 cells**
-Allen Institute for Brain Science: Summer Intern Symposium, Seattle, WA, Aug 2022.
+[Poster] **Dataset alignment and integration: Exploring electrophysiology shifts in acute versus culture interneurons and human neocortical layer 1 cells.**
+Allen Institute for Brain Science, Summer Intern Symposium, Seattle, WA, Aug 2022.
 
-[Oral] **CD3 B-cell receptor repertoires as deep embedded representation of protein sequences**
+[Oral] **CD3 B-cell receptor repertoires as deep embedded representation of protein sequences.**
 Artificial Intelligence Institute at Seoul National University, Seoul, South Korea, Jun 2021.
 
-[Poster] **Lagrangian Particle Models in HIGRAD/FIRETEC and FIESTA**
+[Poster] **Lagrangian Particle Models in HIGRAD/FIRETEC and FIESTA.**
 Los Alamos National Laboratory, Parallel Computing Summer Research Institute, Los Alamos, NM, Aug 2020.
 
 ## Honors & Awards
