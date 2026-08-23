@@ -3,48 +3,42 @@ layout: default
 title: Sang Yoon Byun
 ---
 
-I am a Ph.D. student in Computer Science at the **University of California, San Diego**, advised by [Vikas Bansal](https://bansal-lab.github.io/). My research develops computational methods for end-to-end variant analysis of paralogous genes, spanning copy number estimation and aggregate variant calling from short-read and exome sequencing data.
+## Introduction! 
+
+Hello! I am a Ph.D. student in Computer Science at the **University of California, San Diego**, advised by [Vikas Bansal](https://bansal-lab.github.io/). My research focuses on developing computational methods for end-to-end variant analysis of paralogous genes, spanning copy number estimation, aggregate variant calling, and variant interpretation using short-read and exome sequencing data.
 
 
 ## Education
 
-**University of California, San Diego**
-Ph.D., Computer Science
-*Thesis:* Computational Framework for End-to-End Variant Analysis of Paralogous Genes
-*Committee:* Vineet Bafna, Melissa Gymrek, Niema Moshiri, Vikas Bansal
+**University of California, San Diego** 
+Ph.D., Computer Science 
+*Thesis:* Computational Framework for End-to-End Variant Analysis of Paralogous Genes 
+*Committee:* Vineet Bafna, Melissa Gymrek, Niema Moshiri, Vikas Bansal 
 *Advisor:* Vikas Bansal
 
-**University of California, San Diego**
+**University of California, San Diego** 
 M.S., Computer Science &nbsp;·&nbsp; *Advisor:* Vikas Bansal
 
-**Grinnell College**
+**Grinnell College** 
 B.A., Computer Science &nbsp;·&nbsp; Minor in Policy Studies &nbsp;·&nbsp; *Advisor:* Jerod Weinman
 
 
 ## Professional Experience
 
 **Nurix Therapeutics, Inc.** 
-
 *Cheminformatics & Machine Learning Intern* (Jun–Sep 2026)
 
 **Allen Institute for Brain Science** 
-
-*Computational Neuroscience Intern* (Jun–Aug 2022)
-
+*Computational Neuroscience Intern* (Jun–Aug 2022) 
 Built a Python package using dataset alignment and semi-supervised clustering to correct
 non-biological shifts and reduce noise across large electrophysiology datasets.
 
 **Artificial Intellgience Institute of Seoul National University** 
-
-*Computational Immunology Intern* (Apr–Aug 2021)
-
-Applied NLP-based deep embedding techniques to protein sequences to classify B-cell receptor
-repertoires of COVID-19 patients and healthy subjects with over 87% accuracy.
+*Computational Immunology Intern* (Apr–Aug 2021) 
+Applied NLP-based deep embedding techniques to protein sequences to classify B-cell receptor repertoires of COVID-19 patients and healthy subjects with over 87% accuracy.
 
 **Los Alamos National Laboratory** 
-
-*Parallel Computing Research Intern* (Jun–Aug 2020)
-
+*Parallel Computing Research Intern* (Jun–Aug 2020) 
 Optimized high-performance computational fluid dynamics code by porting Fortran to C/C++.
 
 
