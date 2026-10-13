@@ -34,7 +34,7 @@ Advisor: [Jerod Weinman](https://weinman.cs.grinnell.edu/)
 
 **Nurix Therapeutics, Inc.** \
 *Cheminformatics & Machine Learning Intern &nbsp;·&nbsp; Jun – Sep 2026* \
-Developing computational tools to analyze DNA-encoded library (DEL) selection data and identify sequence-driven binding signals.
+Developed computational tools to analyze DNA-encoded library (DEL) selection data and identify sequence-driven binding signals.
 
 **Allen Institute for Brain Science** \
 *Computational Neuroscience Intern &nbsp;·&nbsp; Jun – Aug 2022* \
@@ -54,13 +54,13 @@ Optimized high-performance computational fluid dynamics code by porting Fortran 
 **University of California, San Diego**
 
 *Head Teaching Assistant &nbsp;·&nbsp; Mar – Jun 2026* \
-CSE 29: Systems Programming and Software Tools 
+[CSE 29: Systems Programming and Software Tools](https://cse29spring2026.github.io/)
 
-*Mentor Teaching Assistant &nbsp;·&nbsp; Jan – Mar 2026* \
-CSE 599: Teaching Methods in Computer Science
+*Mentor &nbsp;·&nbsp; Jan – Mar 2026* \
+[CSE 599: Teaching Methods in Computer Science](https://cseweb.ucsd.edu/~minnes/cse599overview.html)
 
 *Teaching Assistant &nbsp;·&nbsp; Sep – Dec 2025* \
-CSE 8A / 6R: Introduction to Programming 
+[CSE 8A / 6R: Introduction to Programming](https://cse8a-6r-fall2025.github.io/)
 
 
 **Grinnell College**
@@ -118,6 +118,9 @@ International Society for Computational Biology &nbsp;·&nbsp; May 2026
 
 ## Service
 
+- **Senior TA Panelist** \
+CSE 599: Teaching Methods in Computer Science &nbsp;·&nbsp; Oct 2026
+
 - **Graduate Student Mentor Panelist** \
 UC San Diego Warren College Honors Council &nbsp;·&nbsp; Feb 2026
 
@@ -132,3 +135,8 @@ UC San Diego Rady School of Management &nbsp;·&nbsp; Apr 2024 – Jun 2024
 
 - **Volunteer Full Stack Developer** \
 Develop for Good &nbsp;·&nbsp; Apr – Jun 2021
+
+## Patents
+
+- **Apparatus and Method for Analyzing Immune Status** \
+Dec 2025 &nbsp;·&nbsp; South Korea &nbsp;·&nbsp; [doi.org:10.8080/1020220092660](https://doi.org/10.8080/1020220092660)
