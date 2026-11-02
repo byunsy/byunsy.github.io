@@ -97,3 +97,65 @@ section p,
 section li {
   line-height: 1.5;
 }
+
+/* ---- Teaching photos page ---- */
+
+/* Emoji link next to a course name: keep the glyph its normal color on hover */
+.photo-link,
+.photo-link:hover,
+.photo-link:focus {
+  color: inherit;
+  margin-left: 4px;
+  white-space: nowrap;
+}
+
+.back-link {
+  margin: 4px 0 18px 0;
+  font-size: 0.95em;
+}
+
+/* Muted term label in the section headings */
+.term {
+  font-weight: 400;
+  color: #777;
+}
+
+/* Responsive thumbnail grid */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 18px 0 28px 0;
+}
+
+.photo-grid figure {
+  margin: 0;
+}
+
+.photo-grid a {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.photo-grid a:hover,
+.photo-grid a:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 191, 4, 0.35);
+}
+
+.photo-grid img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.photo-grid figcaption {
+  margin-top: 7px;
+  font-size: 0.9em;
+  color: #777;
+  line-height: 1.35;
+}

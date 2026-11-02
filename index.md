@@ -54,13 +54,13 @@ Optimized high-performance computational fluid dynamics code by porting Fortran 
 **University of California, San Diego**
 
 *Head Teaching Assistant &nbsp;·&nbsp; Mar – Jun 2026* \
-[CSE 29: Systems Programming and Software Tools](https://cse29spring2026.github.io/)
+[CSE 29: Systems Programming and Software Tools](https://cse29spring2026.github.io/) [📸](/photos#cse29){: .photo-link title="Photos" aria-label="CSE 29 teaching photos"}
 
 *Mentor &nbsp;·&nbsp; Jan – Mar 2026* \
 [CSE 599: Teaching Methods in Computer Science](https://cseweb.ucsd.edu/~minnes/cse599overview.html)
 
 *Teaching Assistant &nbsp;·&nbsp; Sep – Dec 2025* \
-[CSE 8A / 6R: Introduction to Programming](https://cse8a-6r-fall2025.github.io/)
+[CSE 8A / 6R: Introduction to Programming](https://cse8a-6r-fall2025.github.io/) [📸](/photos#cse8a){: .photo-link title="Photos" aria-label="CSE 8A teaching photos"}
 
 
 **Grinnell College**
