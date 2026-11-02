@@ -16,19 +16,19 @@ A few memorable moments from my amazing time as a TA at UC San Diego!
 <div class="photo-grid">
   <figure>
     <a href="{{ "/assets/files/cse29_class_web.jpg" | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ "/assets/files/cse29_class_web.jpg" | relative_url }}" width="1200" height="900" loading="lazy" alt="CSE 29 — last day of class group photo">
+      <img src="{{ "/assets/files/cse29_class_web.jpg" | relative_url }}" width="800" height="600" loading="lazy" alt="CSE 29 — last day of class group photo">
     </a>
     <figcaption>Last day of class 🎉</figcaption>
   </figure>
   <figure>
     <a href="{{ "/assets/files/cse29_sg1_web.jpg" | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ "/assets/files/cse29_sg1_web.jpg" | relative_url }}" width="1200" height="900" loading="lazy" alt="CSE 29 — exam review session">
+      <img src="{{ "/assets/files/cse29_sg1_web.jpg" | relative_url }}" width="800" height="600" loading="lazy" alt="CSE 29 — exam review session">
     </a>
     <figcaption>Exam review session 💻</figcaption>
   </figure>
   <figure>
     <a href="{{ "/assets/files/cse29_sg2_web.jpg" | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ "/assets/files/cse29_sg2_web.jpg" | relative_url }}" width="900" height="1200" loading="lazy" alt="CSE 29 — froyo break">
+      <img src="{{ "/assets/files/cse29_sg2_web.jpg" | relative_url }}" width="600" height="800" loading="lazy" alt="CSE 29 — froyo break">
     </a>
     <figcaption>Froyo break 🍨</figcaption>
   </figure>
@@ -40,7 +40,7 @@ A few memorable moments from my amazing time as a TA at UC San Diego!
 <div class="photo-grid">
   <figure>
     <a href="{{ "/assets/files/cse8a_sg_web.jpg" | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ "/assets/files/cse8a_sg_web.jpg" | relative_url }}" width="1200" height="676" loading="lazy" alt="CSE 8A — boba day">
+      <img src="{{ "/assets/files/cse8a_sg_web.jpg" | relative_url }}" width="800" height="450" loading="lazy" alt="CSE 8A — boba day">
     </a>
     <figcaption>Boba Day 🧋</figcaption>
   </figure>
