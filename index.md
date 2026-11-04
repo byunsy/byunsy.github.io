@@ -32,20 +32,32 @@ Advisor: [Jerod Weinman](https://weinman.cs.grinnell.edu/)
 
 ## Professional Experience
 
-**Nurix Therapeutics, Inc.** \
-*Cheminformatics & Machine Learning Intern &nbsp;·&nbsp; Jun – Sep 2026* \
+**Nurix Therapeutics, Inc.** 
+<div style="margin-bottom: 0.25em; margin-top:-1.2em; font-style: italic;">
+Cheminformatics & Machine Learning Intern &nbsp;·&nbsp; Jun – Sep 2026
+</div>
+
 Developed computational tools to analyze DNA-encoded library (DEL) selection data and identify sequence-driven binding signals.
 
-**Allen Institute for Brain Science** \
-*Computational Neuroscience Intern &nbsp;·&nbsp; Jun – Aug 2022* \
+**Allen Institute for Brain Science** 
+<div style="margin-bottom: 0.25em; margin-top:-1.2em; font-style: italic;">
+Computational Neuroscience Intern &nbsp;·&nbsp; Jun – Aug 2022
+</div>
+
 Built a Python package using dataset alignment and semi-supervised clustering to correct non-biological shifts and reduce noise across large electrophysiology datasets.
 
-**Artificial Intelligence Institute of Seoul National University** \
-*Computational Immunology Intern &nbsp;·&nbsp; Apr – Aug 2021* \
+**Artificial Intelligence Institute of Seoul National University** 
+<div style="margin-bottom: 0.25em; margin-top:-1.2em; font-style: italic;">
+Computational Immunology Intern &nbsp;·&nbsp; Apr – Aug 2021
+</div>
+
 Applied NLP-based deep embedding techniques to protein sequences to classify B-cell receptor repertoires of COVID-19 patients and healthy subjects with over 87% accuracy.
 
-**Los Alamos National Laboratory** \
-*Parallel Computing Research Intern &nbsp;·&nbsp; Jun – Aug 2020* \
+**Los Alamos National Laboratory** 
+<div style="margin-bottom: 0.25em; margin-top:-1.2em; font-style: italic;">
+Parallel Computing Research Intern &nbsp;·&nbsp; Jun – Aug 2020
+</div>
+
 Optimized high-performance computational fluid dynamics code by porting Fortran to C/C++.
 
 
@@ -67,6 +79,18 @@ Optimized high-performance computational fluid dynamics code by porting Fortran 
 
 *Undergraduate Teaching Mentor &nbsp;·&nbsp; Jan – May 2022* \
 FairyBytes Programming Club
+
+
+## Honors & Awards
+
+- **Doctoral Award for Excellence in Teaching** \
+University of California, San Diego &nbsp;·&nbsp; Jun 2026
+
+- **ISMB Conference Fellowship** \
+International Society for Computational Biology &nbsp;·&nbsp; May 2026
+
+- **Undergraduate Research Fellowship** \
+National Security Education Center at Los Alamos National Laboratory &nbsp;·&nbsp; Jun 2020
 
 
 ## Publications
@@ -107,16 +131,11 @@ Artificial Intelligence Institute at Seoul National University, Seoul, South Kor
 [Poster] **Lagrangian Particle Models in HIGRAD/FIRETEC and FIESTA.**
 Los Alamos National Laboratory, Parallel Computing Summer Research Institute, Los Alamos, NM, Aug 2020.
 
-## Honors & Awards
-
-- **Doctoral Award for Excellence in Teaching** \
-University of California, San Diego &nbsp;·&nbsp; Jun 2026
-
-- **ISMB Conference Fellowship** \
-International Society for Computational Biology &nbsp;·&nbsp; May 2026
-
 
 ## Service
+
+- **Research Community Hour Mentor** \
+IDEA Engineering Student Center, Jacobs School of Engineering &nbsp;·&nbsp; Nov 2026
 
 - **Senior TA Panelist** \
 CSE 599: Teaching Methods in Computer Science &nbsp;·&nbsp; Oct 2026
