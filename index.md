@@ -90,7 +90,25 @@ University of California, San Diego &nbsp;·&nbsp; Jun 2026
 International Society for Computational Biology &nbsp;·&nbsp; May 2026
 
 - **Undergraduate Research Fellowship** \
-National Security Education Center at Los Alamos National Laboratory &nbsp;·&nbsp; Jun 2020
+Los Alamos National Laboratory &nbsp;·&nbsp; Jun 2020
+
+
+## Mentoring
+
+- **MentorGrinnell Career Mentor** \
+MentorGrinnell Program &nbsp;·&nbsp; Aug 2026 - Present
+
+- **Research Community Hour Mentor** \
+UC San Diego Jacobs School of Engineering &nbsp;·&nbsp; Nov 2026
+
+- **Senior TA Panelist** \
+CSE 599: Teaching Methods in Computer Science &nbsp;·&nbsp; Oct 2026
+
+- **Graduate Student Mentor Panelist** \
+UC San Diego Warren College Honors Council &nbsp;·&nbsp; Feb 2026
+
+- **International Pre-Orientation Program Mentor** \
+Grinnell College &nbsp;·&nbsp; Aug 2019
 
 
 ## Publications
@@ -133,15 +151,6 @@ Los Alamos National Laboratory, Parallel Computing Summer Research Institute, Lo
 
 
 ## Service
-
-- **Research Community Hour Mentor** \
-IDEA Engineering Student Center, Jacobs School of Engineering &nbsp;·&nbsp; Nov 2026
-
-- **Senior TA Panelist** \
-CSE 599: Teaching Methods in Computer Science &nbsp;·&nbsp; Oct 2026
-
-- **Graduate Student Mentor Panelist** \
-UC San Diego Warren College Honors Council &nbsp;·&nbsp; Feb 2026
 
 - **Venture Fellow - Clinical diagnostics startup** \
 UC San Diego Rady School of Management &nbsp;·&nbsp; Apr 2025 – Jun 2025
